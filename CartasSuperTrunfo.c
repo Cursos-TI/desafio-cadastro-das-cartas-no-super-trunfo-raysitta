@@ -25,6 +25,6 @@ int main(){
 
     printf("Número de Pontos Túristicos: %d\n", idade); //Usado %d para imprimir o int idade.
 
-    return 0;
+return 0;
 
 }
