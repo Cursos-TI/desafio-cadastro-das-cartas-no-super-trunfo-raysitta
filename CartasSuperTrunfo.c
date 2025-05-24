@@ -2,86 +2,86 @@
 
 int main(){
     //Declaração de variaveis da carta 1.
-    char letra;
-    char nome[50];
-    char cidade[50];
-    float quantidade;
-    float altura;
-    float altura2;
-    int idade;
+    char letra_carta1;
+    char nome_carta1[50];
+    char cidade_carta1[50];
+    float quantidade_carta1;
+    float area_carta1;
+    float pib_carta1;
+    int pontos_turisticos_carta1;
+
+    //Declaração de variaveis da carta 2.
+    char letra_carta2;
+    char nome_carta2[50];
+    char cidade_carta2[50];
+    float quantidade_carta2;
+    float area_carta2;
+    float pib_carta2;
+    int pontos_turisticos_carta2;
 
     //Inserindo dados da Carta 1.
     printf("Digite a letra da carta: \n");
-    scanf("%c", &letra);
+    scanf(" %c", &letra_carta1);
 
     printf("Digite o código da carta: \n");
-    scanf("%s", &nome);
+    scanf("%s", nome_carta1);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade);
+    scanf("%s", cidade_carta1);
 
     printf("Digite a População: \n");
-    scanf("%f", &quantidade);
+    scanf("%f", &quantidade_carta1);
 
     printf("Digite a Área: \n");
-    scanf("%f", &altura);
+    scanf("%f", &area_carta1);
 
     printf("Digite o PIB: \n");
-    scanf("%f", &altura2);
+    scanf("%f", &pib_carta1);
 
     printf("Digite o número de Pontos Túristicos: \n");
-    scanf("%d", &idade);
+    scanf("%d", &pontos_turisticos_carta1);
 
     //Exibindo informações da carta 1.
-    printf("Estado: %c\n", letra); 
-    printf("Código: %s\n", nome); //Usado %s para imprimir a string.
-    printf("Nome da cidade: %s\n", cidade); //Usado %s para imprimir a string.
-    printf("População: %f\n", quantidade); //Usado %f para imprimir float.
-    printf("Área: %f\n", altura); //Usado %f para imprimir float.
-    printf("PIB: %f\n", altura2); //Usado %f para imprimir float.
-    printf("Número de Pontos Túristicos: %d\n", idade); //Usado %d para imprimir o int.
+    printf("Estado: %c\n", letra_carta1); 
+    printf("Código: %s\n", nome_carta1); //Usado %s para imprimir a string.
+    printf("Nome da cidade: %s\n", cidade_carta1); //Usado %s para imprimir a string.
+    printf("População: %f\n", quantidade_carta1); //Usado %f para consistência
+    printf("Área: %f\n", area_carta1); //Usado %f para consistência
+    printf("PIB: %f\n", pib_carta1); //Usado %f para consistência
+    printf("Número de Pontos Túristicos: %d\n", pontos_turisticos_carta1); //Usado %d para imprimir o int.
 
     printf("\n\n");
 
-    //Declaração de variaveis da carta 2.
-    char letra2;
-    char nome2[50];
-    char cidade2[50];
-    float quantidade2;
-    float altura3;
-    float altura2_2;
-    int idade2;
-
     //Inserindo dados da carta 2.
     printf("Digite a letra da carta: \n");
-    scanf("%c", &letra2);
+    scanf(" %c", &letra_carta2);
 
     printf("Digite o código da carta: \n");
-    scanf("%s", &nome2);
+    scanf("%s", nome_carta2);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade2);
+    scanf("%s", cidade_carta2);
 
     printf("Digite a População: \n");
-    scanf("%f", &quantidade2);
+    scanf("%f", &quantidade_carta2);
 
     printf("Digite a Área: \n");
-    scanf("%f", altura3);
+    scanf("%f", &area_carta2);
 
     printf("Digite o PIB: \n");
-    scanf("%f", &altura2_2);
+    scanf("%f", &pib_carta2);
 
     printf("Digite o número de Pontos Túristicos: \n");
-    scanf("%d", &idade2);
+    scanf("%d", &pontos_turisticos_carta2);
     
     //Exibindo informações da carta 2.
-    printf("Estado: %c\n", letra2); 
-    printf("Código: %s\n", nome2); //Usado %s para imprimir a string.
-    printf("Nome da cidade: %s\n", cidade2); //Usado %s para imprimir a string.
-    printf("População: %f\n", quantidade2); //Usado %f para imprimir float.
-    printf("Área: %f\n", altura3); //Usado %f para imprimir float.
-    printf("PIB: %f\n", altura2_2); //Usado %f para imprimir float.
-    printf("Número de Pontos Túristicos: %d\n", idade2); //Usado %d para imprimir o int.
+    printf("Estado: %c\n", letra_carta2); 
+    printf("Código: %s\n", nome_carta2); //Usado %s para imprimir a string.
+    printf("Nome da cidade: %s\n", cidade_carta2); //Usado %s para imprimir a string.
+    printf("População: %f\n", quantidade_carta2); //Usado %f para consistência.
+    printf("Área: %f\n", area_carta2); //Usado %f para consistência
+    printf("PIB: %f\n", pib_carta2); //Usado %f para consistência
+    printf("Número de Pontos Túristicos: %d\n", pontos_turisticos_carta2); //Usado %d para imprimir o int.
 
 return 0;
 
