@@ -82,7 +82,7 @@ int main(){
     printf("Área: %f\n", area_carta2); //Usado %f para consistência
     printf("PIB: %f\n", pib_carta2); //Usado %f para consistência
     printf("Número de Pontos Túristicos: %d\n", pontos_turisticos_carta2); //Usado %d para imprimir o int.
-
+ 
 return 0;
 
 }
